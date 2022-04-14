@@ -1,43 +1,43 @@
 {
-  "name": "jupyterlab_pygments",
-  "version": "0.2.2",
-  "description": "Pygments theme using JupyterLab CSS variables",
+  "name": "jupyterlab_empinken_extension",
+  "version": "0.1.1",
+  "description": "Coloured JupyterLab / RetroLab notebook cells based on cell tags",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/jupyterlab/jupyterlab_pygments",
+  "homepage": "https://github.com/innovationOUtside/jupyterlab_empinken_extension",
   "bugs": {
-    "url": "https://github.com/jupyterlab/jupyterlab_pygments/issues"
+    "url": "https://github.com/innovationOUtside/jupyterlab_empinken_extension/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
-    "name": "Jupyter Development Team",
-    "email": "jupyter@googlegroups.com"
+    "name": "Tony Hirst",
+    "email": "tony.hirst@gmail.com"
   },
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
-    "style/**/*.{css,js,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+    "style/**/*.{css,js,eot,gif,html,jpg,json,png,svg,woff2,ttf}",
+    "schema/*.json"
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jupyterlab/jupyterlab_pygments.git"
+    "url": "https://github.com/innovationOUtside/jupyterlab_empinken_extension.git"
   },
   "scripts": {
-    "build": "jlpm build:css && jlpm build:lib && jlpm build:labextension:dev",
-    "build:prod": "jlpm clean && jlpm build:css && jlpm build:lib && jlpm build:labextension",
+    "build": "jlpm build:lib && jlpm build:labextension:dev",
+    "build:prod": "jlpm clean && jlpm build:lib && jlpm build:labextension",
     "build:labextension": "jupyter labextension build .",
     "build:labextension:dev": "jupyter labextension build --development True .",
     "build:lib": "tsc",
-    "build:css": "python generate_css.py",
     "clean": "jlpm clean:lib",
-    "clean:lib": "rimraf lib tsconfig.tsbuildinfo style/base.css",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
     "clean:lintcache": "rimraf .eslintcache .stylelintcache",
-    "clean:labextension": "rimraf jupyterlab_pygments/labextension",
+    "clean:labextension": "rimraf jupyterlab_empinken_extension/labextension",
     "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
     "eslint": "jlpm eslint:check --fix",
     "eslint:check": "eslint . --cache --ext .ts,.tsx",
@@ -54,7 +54,9 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.1.0"
+    "@jupyterlab/application": "^3.1.0",
+    "@jupyterlab/settingregistry": "^3.1.0",
+    "@jupyterlab/notebook": "^3.1.0"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.1.0",
@@ -81,14 +83,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "jupyterlab": {
+  "jupyterlab": { 
     "extension": true,
-    "outputDir": "jupyterlab_pygments/labextension",
-    "_build": {
-      "load": "static/remoteEntry.aa1060b2d1221f8e5688.js",
-      "extension": "./extension",
-      "style": "./style"
-    }
+    "outputDir": "jupyterlab_empinken_extension/labextension",
+    "schemaDir": "schema"
   },
   "jupyter-releaser": {
     "hooks": {
