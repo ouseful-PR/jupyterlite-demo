@@ -128,13 +128,6 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.e46323a1758c0d1ceffb.js",
-        "name": "jupyterlab-videochat",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
         "load": "static/remoteEntry.a4b7fe28cbbbb52a1928.js",
         "name": "jupyterlab_cell_status_extension",
         "style": "./style"
