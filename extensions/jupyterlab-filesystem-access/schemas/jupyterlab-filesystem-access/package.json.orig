@@ -91,12 +91,7 @@
   "jupyterlab": {
     "extension": true,
     "outputDir": "jupyterlab_filesystem_access/labextension",
-    "schemaDir": "schema",
-    "_build": {
-      "load": "static/remoteEntry.8fe64f9bb3e5c3f2600f.js",
-      "extension": "./extension",
-      "style": "./style"
-    }
+    "schemaDir": "schema"
   },
   "jupyter-releaser": {
     "hooks": {

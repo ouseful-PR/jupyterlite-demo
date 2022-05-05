@@ -75,7 +75,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.d3f93277b65928cb96a9.js",
+        "load": "static/remoteEntry.84a5fbcaf1830473e5a0.js",
         "name": "ipycanvas"
       },
       {
@@ -87,7 +87,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.710d0093522e0289f99a.js",
+        "load": "static/remoteEntry.509ecd914d0df11eb8e1.js",
         "name": "jupyter-matplotlib"
       },
       {
@@ -107,7 +107,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.35e206d4049d2b61b2ee.js",
+        "load": "static/remoteEntry.8fe64f9bb3e5c3f2600f.js",
         "name": "jupyterlab-filesystem-access",
         "style": "./style"
       },
