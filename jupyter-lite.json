@@ -128,8 +128,29 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.e46323a1758c0d1ceffb.js",
+        "name": "jupyterlab-videochat",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.a4b7fe28cbbbb52a1928.js",
+        "name": "jupyterlab_cell_status_extension",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.e4e09fdb41561df335c3.js",
         "name": "jupyterlab_empinken_extension",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.53218a2189453295856d.js",
+        "name": "jupyterlab_ou_brand_extension",
         "style": "./style"
       },
       {
