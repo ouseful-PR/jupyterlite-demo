@@ -19,8 +19,6 @@ jupyterlite-xeus-sqlite==0.2.0
 plotly>=5,<6
 theme-darcula
 
-jupyter-videochat
-
 jupyterlab-empinken-extension
 jupyterlab-filesystem-access
 https://raw.githubusercontent.com/innovationOUtside/jupyterlab_cell_status_extension/main/dist/jupyterlab_cell_status_extension-0.1.3-py3-none-any.whl
