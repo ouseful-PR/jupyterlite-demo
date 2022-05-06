@@ -35,13 +35,6 @@
       },
       {
         "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.8dcc730aedc487734a23.js",
-        "name": "@jupyterlite/webrtc-docprovider",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
         "liteExtension": true,
         "load": "static/remoteEntry.444cde1d553878a66dd2.js",
         "name": "@jupyterlite/xeus-lua-kernel",
