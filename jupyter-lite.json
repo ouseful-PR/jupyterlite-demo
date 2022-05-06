@@ -35,6 +35,13 @@
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.8dcc730aedc487734a23.js",
+        "name": "@jupyterlite/webrtc-docprovider",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
         "liteExtension": true,
         "load": "static/remoteEntry.444cde1d553878a66dd2.js",
         "name": "@jupyterlite/xeus-lua-kernel",
@@ -109,6 +116,13 @@
         "liteExtension": false,
         "load": "static/remoteEntry.8fe64f9bb3e5c3f2600f.js",
         "name": "jupyterlab-filesystem-access",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.c92422c0db9710171f92.js",
+        "name": "jupyterlab-link-share",
         "style": "./style"
       },
       {
