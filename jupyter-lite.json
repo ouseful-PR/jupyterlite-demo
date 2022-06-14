@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.7",
+    "appVersion": "0.1.0-beta.8",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
@@ -43,21 +43,21 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.444cde1d553878a66dd2.js",
+        "load": "static/remoteEntry.f69e84c5aaec83c179ca.js",
         "name": "@jupyterlite/xeus-lua-kernel",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.098ba362c471964915fd.js",
+        "load": "static/remoteEntry.960d5d0f875a651e597f.js",
         "name": "@jupyterlite/xeus-sqlite-kernel",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.c2f83b94be82afd02dbe.js",
+        "load": "static/remoteEntry.6e7c2ba8038680301a15.js",
         "name": "@jupyterlite/xeus-wren-kernel",
         "style": "./style"
       },
@@ -84,6 +84,12 @@
         "liteExtension": false,
         "load": "static/remoteEntry.84a5fbcaf1830473e5a0.js",
         "name": "ipycanvas"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.176149dcbfb677ea36fb.js",
+        "name": "ipyevents"
       },
       {
         "extension": "./extension",
@@ -128,7 +134,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.730e734f0ef88fa439e8.js",
+        "load": "static/remoteEntry.e2bf80f6515beeab9026.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
       },
@@ -172,8 +178,7 @@
     "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
     "fullStaticUrl": "./build",
     "licensesUrl": "./lab/api/licenses",
-    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
-    "preferredPath": "/"
+    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe"
   },
   "jupyter-lite-schema-version": 0
 }
