@@ -28,4 +28,4 @@ https://raw.githubusercontent.com/innovationOUtside/jupyterlab_cell_status_exten
 https://raw.githubusercontent.com/innovationOUtside/jupyterlab_ou_brand_extension/main/dist/jupyterlab_ou_brand_extension-0.1.0-py3-none-any.whl
 
 jupyterlab-myst
-https://github.com/agoose77/markdown-it-mermaid.git
+https://github.com/agoose77/markdown-it-mermaid/archive/refs/heads/main.zip
