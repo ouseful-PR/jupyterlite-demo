@@ -30,3 +30,5 @@ https://raw.githubusercontent.com/innovationOUtside/jupyterlab_ou_brand_extensio
 jupyterlab-markup
 jupyterlab-myst
 
+nbev3devsim
+sidecar
