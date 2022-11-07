@@ -1,4 +1,10 @@
 {
+  "XeusPythonEnv": {
+    "packages": [
+      "nbev3devsim",
+      "sidecar"
+    ]
+  },
   "jupyter-config-data": {
     "collaborative": true,
     "settingsUrl": "../build/schemas",
